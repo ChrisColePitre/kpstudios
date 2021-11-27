@@ -22,10 +22,9 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot3bRatio2n3.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                     <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                 
                                  </div>
                              </div>
                          </div>
@@ -34,10 +33,9 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot5aRatio2n3.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                     <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                     
                                  </div>
                              </div>
                          </div>
@@ -46,10 +44,9 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot5bRatio2n3.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                     <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                     
                                  </div>
                              </div>
                          </div>
@@ -70,10 +67,9 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot4aRatio16n9.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                     <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                    
                                  </div>
                              </div>
                          </div>
@@ -82,10 +78,9 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot4bRatio1n1.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                     <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                     
                                  </div>
                              </div>
                          </div>
@@ -94,10 +89,10 @@ export default function Third(props) {
                                  <img class="d-block w-100" src="assets/images/pot4cRatio16n9.png" alt="OOPS" />
                                  <div class="carousel-caption d-none d-md-block">
                                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                                         <strong>Fixed-Height Slider</strong>
+                                         <a href="https://www.icloud.com/sharedalbum/#B0oG4TcsmGKKEJ8"><strong>Click For Whole Album</strong></a>
+
                                      </h5>
-                                     <p class="mbr-section-text mbr-fonts-style display-7">
-                                         Click on the image to edit slides.</p>
+                                     
                                  </div>
                              </div>
                          </div>
