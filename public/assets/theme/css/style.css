@@ -944,10 +944,7 @@ blockquote {
 
 .aboutme {
   margin: 3em;
-  border: solid; 
-  border-radius: 5;
-  border-width: 2px;
-  border-color: red;
+  
   align-items: center;
 }
 
