@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './app';
-import Home from './components/home'
+// import Home from './components/home'
 import Card from './components/universalcard'
 
 
