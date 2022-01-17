@@ -39,7 +39,7 @@ export default function Card(props) {
                 {/**LATEST WORK BLURB */}
                  <div class="aboutme" >
                         <h5 class = "aboutmelabel">
-                            <a href="https://www.icloud.com/sharedalbum/#B0zG6XBubw7l2E" target="_blank"><strong>Click Here To See More From My Latest Kiln Firing</strong></a>
+                            <a href="https://www.icloud.com/sharedalbum/#B0zG6XBubw7l2E" target="_blank" rel="noopener noreferrer"><strong>Click Here To See More From My Latest Kiln Firing</strong></a>
                             
                         </h5><br />
                         <p class = "aboutmetext">
@@ -81,7 +81,7 @@ export default function Card(props) {
                 {/**UNDERGRAD SHOW BLURB */}
                 <div class="aboutme" >
                         <h5 class = "aboutmelabel">
-                            <a href="https://www.icloud.com/sharedalbum/#B0z5nhQST7m67m" target="_blank"><strong>Click Here To Browse This Collection</strong></a>
+                            <a href="https://www.icloud.com/sharedalbum/#B0z5nhQST7m67m" target="_blank" rel="noopener noreferrer"><strong>Click Here To Browse This Collection</strong></a>
                             
                         </h5><br />
                         <p class = "aboutmetext">
