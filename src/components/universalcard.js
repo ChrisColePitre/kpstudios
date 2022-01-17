@@ -2,6 +2,7 @@ export default function Card(props) {
     return(
         <div class="row justify-content-center">
         <div class="col-12 col-md-10">
+            {/**LATEST KILN SCROLLER */}
                  <div class="carousel slide" id="newTargetValue" data-interval="5000" data-bs-interval="5000">
                      
                      <ol class="carousel-indicators">
@@ -36,16 +37,62 @@ export default function Card(props) {
                      </a>
                    
                  </div>
-                {/**LATEST WORK BLURB */}
+                {/**LATEST KILN BLURB */}
                  <div class="aboutme" >
                         <h5 class = "aboutmelabel">
                             <a href="https://www.icloud.com/sharedalbum/#B0zG6XBubw7l2E" target="_blank" rel="noopener noreferrer"><strong>Click Here To See More From My Latest Kiln Firing</strong></a>
                             
                         </h5><br />
                         <p class = "aboutmetext">
-                            Here is some photos from my latest kiln firing. Lorem Ipsum: Those options are already baked in with this model shoot me an email clear blue water but we need distributors to evangelize the new line to local markets, but fire up your browser. Strategic high-level 30,000 ft view. Drill down re-inventing the wheel at the end of the day but curate imagineer, or to be inspired is to become creative.
+                            Here are some photos from my latest kiln firing. Lorem Ipsum: Those options are already baked in with this model shoot me an email clear blue water but we need distributors to evangelize the new line to local markets, but fire up your browser. Strategic high-level 30,000 ft view. Drill down re-inventing the wheel at the end of the day but curate imagineer, or to be inspired is to become creative.
                         </p>
                 </div>
+                {/**FUNCTIONAL WORK BLURB */}
+                 <div class="carousel slide" id="secondScroller" data-interval="5000" data-bs-interval="5000">     
+                     <ol class="carousel-indicators">
+                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#Scroller" data-bs-target="#Scroller"></li>
+                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#Scroller" data-bs-target="#Scroller"></li>
+                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#Scroller" data-bs-target="#Scroller"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                         <div class="carousel-item slider-image item active">
+                             <div class="item-wrapper">
+                                 <img class="d-block w-100" src="assets/images/functional1.jpeg" alt="OOPS" />
+                             </div>     
+                         </div>
+                         <div class="carousel-item slider-image item">
+                             <div class="item-wrapper">
+                                 <img class="d-block w-100" src="assets/images/functional2.jpeg" alt="OOPS" />
+                             </div>   
+                         </div>
+                         <div class="carousel-item slider-image item">
+                             <div class="item-wrapper">
+                                 <img class="d-block w-100" src="assets/images/functional3.jpeg" alt="OOPS" />
+                             </div>   
+                         </div>
+                     </div>
+                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#Scroller">
+                         <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                         <span class="sr-only visually-hidden">Previous</span>
+                     </a>
+                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#Scroller">
+                         <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                         <span class="sr-only visually-hidden">Next</span>
+                     </a> 
+                </div>
+                {/**FUNCTIONAL WORK BLURB */}
+                 <div class="aboutme" >
+                        <h5 class = "aboutmelabel">
+                            <a href="https://www.icloud.com/sharedalbum/#B0zGY8gBYGSMRuh" target="_blank" rel="noopener noreferrer"><strong>Click Here To See More From My Functional Collection</strong></a>
+                            
+                        </h5><br />
+                        <p class = "aboutmetext">
+                            Here are some photos of some of my Functional Ceramic work. Lorem Ipsum: Those options are already baked in with this model shoot me an email clear blue water but we need distributors to evangelize the new line to local markets, but fire up your browser. Strategic high-level 30,000 ft view. Drill down re-inventing the wheel at the end of the day but curate imagineer, or to be inspired is to become creative.
+                        </p>
+                </div>
+
+
+                {/**UNDERGRAD SHOW SCROLLER */}
                  <div class="carousel slide" id="secondScroller" data-interval="5000" data-bs-interval="5000">     
                      <ol class="carousel-indicators">
                          <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#secondScroller" data-bs-target="#secondScroller"></li>
