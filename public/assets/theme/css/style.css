@@ -16,6 +16,8 @@ button {
   border-color: transparent;
 }
 
+
+
 section,
 .container,
 .container-fluid {
@@ -938,4 +940,24 @@ blockquote {
 .dropdown-item:hover + .dropdown-menu,
 .dropdown-menu:hover {
   display: block;
+}
+
+.aboutme {
+  margin: 3em;
+  border: solid; 
+  border-radius: 5;
+  border-width: 2px;
+  border-color: red;
+  align-items: center;
+}
+
+.aboutmetext {
+  text-align: center;
+  color: gray;
+  font-size: 1em;
+}
+
+.aboutmelabel {
+  text-align: center;
+  font-size: 2em;
 }
