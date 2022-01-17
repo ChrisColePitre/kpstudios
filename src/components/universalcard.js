@@ -2,7 +2,7 @@ export default function Card(props) {
     return(
         <div class="row justify-content-center">
         <div class="col-12 col-md-10">
-            {/**LATEST KILN SCROLLER */}
+            {/**LATEST KILN scrollertarget */}
                  <div class="carousel slide" id="newTargetValue" data-interval="5000" data-bs-interval="5000">
                      
                      <ol class="carousel-indicators">
@@ -48,11 +48,11 @@ export default function Card(props) {
                         </p>
                 </div>
                 {/**FUNCTIONAL WORK BLURB */}
-                 <div class="carousel slide" id="secondScroller" data-interval="5000" data-bs-interval="5000">     
+                 <div class="carousel slide" id="scrollertarget" data-interval="5000" data-bs-interval="5000">     
                      <ol class="carousel-indicators">
-                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#Scroller" data-bs-target="#Scroller"></li>
-                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#Scroller" data-bs-target="#Scroller"></li>
-                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#Scroller" data-bs-target="#Scroller"></li>
+                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
+                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
+                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
                      </ol>
                      <div class="carousel-inner">
                          <div class="carousel-item slider-image item active">
@@ -71,11 +71,11 @@ export default function Card(props) {
                              </div>   
                          </div>
                      </div>
-                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#Scroller">
+                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#scrollertarget">
                          <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                          <span class="sr-only visually-hidden">Previous</span>
                      </a>
-                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#Scroller">
+                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#scrollertarget">
                          <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                          <span class="sr-only visually-hidden">Next</span>
                      </a> 
@@ -92,12 +92,12 @@ export default function Card(props) {
                 </div>
 
 
-                {/**UNDERGRAD SHOW SCROLLER */}
-                 <div class="carousel slide" id="secondScroller" data-interval="5000" data-bs-interval="5000">     
+                {/**UNDERGRAD SHOW scrollertarget */}
+                 <div class="carousel slide" id="secondscrollertarget" data-interval="5000" data-bs-interval="5000">     
                      <ol class="carousel-indicators">
-                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#secondScroller" data-bs-target="#secondScroller"></li>
-                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#secondScroller" data-bs-target="#secondScroller"></li>
-                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#secondScroller" data-bs-target="#secondScroller"></li>
+                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
+                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
+                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
                      </ol>
                      <div class="carousel-inner">
                          <div class="carousel-item slider-image item active">
@@ -116,11 +116,11 @@ export default function Card(props) {
                              </div>   
                          </div>
                      </div>
-                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#secondScroller">
+                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#secondscrollertarget">
                          <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                          <span class="sr-only visually-hidden">Previous</span>
                      </a>
-                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#secondScroller">
+                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#secondscrollertarget">
                          <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                          <span class="sr-only visually-hidden">Next</span>
                      </a> 
