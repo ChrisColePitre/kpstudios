@@ -1,42 +1,19 @@
+import { Carousel } from "react-responsive-carousel"
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+
 export default function Card(props) {
     return(
         <div class="row justify-content-center">
         <div class="col-12 col-md-10">
             {/**LATEST KILN scrollertarget */}
-                 <div class="carousel slide" id="newTargetValue" data-interval="5000" data-bs-interval="5000">
-                     
-                     <ol class="carousel-indicators">
-                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#newTargetValue" data-bs-target="#newTargetValue"></li>
-                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#newTargetValue" data-bs-target="#newTargetValue"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                         <div class="carousel-item slider-image item active">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/kiln1.jpeg" alt="OOPS" />
-                                 
-                             </div>
-                             
-                             
-                         </div>
-                         <div class="carousel-item slider-image item">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/kiln2.jpeg" alt="OOPS" />
-                             </div>
-                            
-                             
-                         </div>
-               
-                     </div>
-                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#newTargetValue">
-                         <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Previous</span>
-                     </a>
-                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#newTargetValue">
-                         <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Next</span>
-                     </a>
-                   
-                 </div>
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                                <div >
+                                    <img  src="assets/images/kiln1.jpeg" alt="OOPS" />
+                                </div>
+                                <div >
+                                    <img  src="assets/images/kiln2.jpeg" alt="OOPS" />
+                                </div>
+                </Carousel>
                 {/**LATEST KILN BLURB */}
                  <div class="aboutme" >
                         <h5 class = "aboutmelabel">
@@ -48,38 +25,17 @@ export default function Card(props) {
                         </p>
                 </div>
                 {/**FUNCTIONAL WORK BLURB */}
-                 <div class="carousel slide" id="scrollertarget" data-interval="5000" data-bs-interval="5000">     
-                     <ol class="carousel-indicators">
-                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
-                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
-                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#scrollertarget" data-bs-target="#scrollertarget"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                         <div class="carousel-item slider-image item active">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/functional1.jpeg" alt="OOPS" />
-                             </div>     
-                         </div>
-                         <div class="carousel-item slider-image item">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/functional2.jpeg" alt="OOPS" />
-                             </div>   
-                         </div>
-                         <div class="carousel-item slider-image item">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/functional3.jpeg" alt="OOPS" />
-                             </div>   
-                         </div>
-                     </div>
-                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#scrollertarget">
-                         <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Previous</span>
-                     </a>
-                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#scrollertarget">
-                         <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Next</span>
-                     </a> 
-                </div>
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                            <div >
+                                 <img  src="assets/images/functional1.jpeg" alt="OOPS" />
+                            </div>
+                            <div >
+                                 <img  src="assets/images/functional2.jpeg" alt="OOPS" />
+                             </div>
+                             <div >
+                                 <img  src="assets/images/functional3.jpeg" alt="OOPS" />
+                             </div>
+                </Carousel>
                 {/**FUNCTIONAL WORK BLURB */}
                  <div class="aboutme" >
                         <h5 class = "aboutmelabel">
@@ -93,38 +49,17 @@ export default function Card(props) {
 
 
                 {/**UNDERGRAD SHOW scrollertarget */}
-                 <div class="carousel slide" id="secondscrollertarget" data-interval="5000" data-bs-interval="5000">     
-                     <ol class="carousel-indicators">
-                         <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
-                         <li data-slide-to="1" data-bs-slide-to="1" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
-                         <li data-slide-to="2" data-bs-slide-to="2" data-target="#secondscrollertarget" data-bs-target="#secondscrollertarget"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                         <div class="carousel-item slider-image item active">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/seniorshow1.jpeg" alt="OOPS" />
-                             </div>     
-                         </div>
-                         <div class="carousel-item slider-image item">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/seniorshow2.jpeg" alt="OOPS" />
-                             </div>   
-                         </div>
-                         <div class="carousel-item slider-image item">
-                             <div class="item-wrapper">
-                                 <img class="d-block w-100" src="assets/images/seniorshow3.jpeg" alt="OOPS" />
-                             </div>   
-                         </div>
-                     </div>
-                     <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#secondscrollertarget">
-                         <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Previous</span>
-                     </a>
-                     <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#secondscrollertarget">
-                         <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                         <span class="sr-only visually-hidden">Next</span>
-                     </a> 
-                </div>
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                            <div >
+                                 <img  src="assets/images/seniorshow1.jpeg" alt="OOPS" />
+                            </div>
+                            <div >
+                                 <img  src="assets/images/seniorshow2.jpeg" alt="OOPS" />
+                             </div>
+                             <div >
+                                 <img  src="assets/images/seniorshow3.jpeg" alt="OOPS" />
+                             </div>
+                </Carousel>
                 {/**UNDERGRAD SHOW BLURB */}
                 <div class="aboutme" >
                         <h5 class = "aboutmelabel">
