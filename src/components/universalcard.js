@@ -6,7 +6,7 @@ export default function Card(props) {
         <div class="row justify-content-center">
         <div class="col-12 col-md-10">
             {/**LATEST KILN scrollertarget */}
-                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true}interval={7500} transitionTime={900}> 
                                 <div >
                                     <img  src="assets/images/kiln1.jpeg" alt="OOPS" />
                                 </div>
@@ -25,7 +25,7 @@ export default function Card(props) {
                         </p>
                 </div>
                 {/**FUNCTIONAL WORK BLURB */}
-                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true} interval={7500} transitionTime={900}> 
                             <div >
                                  <img  src="assets/images/functional1.jpeg" alt="OOPS" />
                             </div>
@@ -49,7 +49,7 @@ export default function Card(props) {
 
 
                 {/**UNDERGRAD SHOW scrollertarget */}
-                <Carousel autoPlay showThumbs={false} infiniteLoop={true}> 
+                <Carousel autoPlay showThumbs={false} infiniteLoop={true} interval={7500} transitionTime={900}> 
                             <div >
                                  <img  src="assets/images/seniorshow1.jpeg" alt="OOPS" />
                             </div>
