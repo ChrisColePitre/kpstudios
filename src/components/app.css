@@ -1,0 +1,304 @@
+/*Original CSS 
+    Wraps around App component items
+*/
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* UNUSED NOW, LEAVING FOR REFERENCE
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*END of Original CSS*/
+/*
+MY CSS, SOME OF ABOVE IS MODIFIED
+NEEDS: Adjust title so it flexes and stacks in mobile view
+        Media Query to change photo to verticle one
+*/
+
+
+
+
+.countdown-title {
+font-family: "timesnewroman";
+font-size: 4vh;
+color: black;
+}
+
+.count-container div{
+display: inline-flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+
+
+}
+.countdown-label {
+font-family: "timesnewroman";
+font-size: 4vh;
+color: black;
+padding:0;
+margin: 0;
+
+display: inline-flex;
+
+flex: 0 0 auto;
+justify-content: center;
+}
+.countdown-labelpair {
+font-family: "la-bohemienne";
+font-size: 4vh;
+font-weight: bold;
+color: black;
+padding:0;
+margin: 0px 4vw;
+display: inline-flex;
+flex: 0 0 auto;
+justify-content: center;
+}
+
+.info-card {
+
+
+  border: 2px solid;
+  
+  
+
+}
+/* .countDown {
+
+} */
+/* .body-container {
+
+} */
+
+
+/**
+MEDIA QUERY START
+*/
+@media only screen and (min-width: 793px) {
+.burger-container {
+  display: none;
+}
+.menubar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.menubar-title {
+    font-family: "timesnewroman";
+    font-size: 4vh;
+    color: black;
+    margin: auto 24px;
+}
+.siteinfo-title {
+  font-family: "timesnewroman";
+  font-size: 5vh;
+  color: black;
+  text-decoration: underline;
+}
+.siteinfo-h2 {
+  font-family: "timesnewroman";
+  font-size: 4vh;
+  color: black;
+}
+.siteinfo-number {
+font-family: "la-bohemienne";
+font-size: 7vh;
+color: black;
+margin: auto 1vw;
+} 
+.address-number {
+  font-family: "times";
+  font-size: 5vh;
+  color: black;
+  margin: auto 1vw;
+  } 
+
+.title-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  
+}
+.nav-container {
+  float: right;
+  display: inline;
+  border: 2px solid red;
+  justify-content: space-between;
+}
+.nav-element {
+    font-family: "timesnewroman";
+    font-size: 3vh;
+    color: black;
+    margin: 10px;
+    padding: 0 10px 0 10px;
+}
+.cid-kpAbc123456 {
+  padding-left: 0rem;
+  padding-right: 0;
+  padding-top: 25rem;
+  padding-bottom: 10rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("./assets/lily-and-chris-airlie-332.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  /* Or background-size: contain; if you want to keep the full image in view */
+  height: 60vh;
+
+  max-width: 100%;
+
+
+}
+.cid-kpAbc123456 .image-wrap img {
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.info-card {
+  /* display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto; */
+  /* min-width: 45vw; */
+  border-color:red;
+
+}
+}
+
+@media only screen and (max-width: 792px) {
+.menubar {
+  background-color: white;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+}
+
+.menubar-title {
+    font-family: "timesnewroman";
+    font-size: 4vh;
+    color: black;
+    padding: 0;
+    margin: auto 25px;
+}
+.siteinfo-title {
+  font-family: "timesnewroman";
+  font-size: 4vh;
+  color: black;
+  text-decoration: underline;
+}
+.siteinfo-h2 {
+  font-family: "timesnewroman";
+  font-size: 3vh;
+  color: black;
+}
+.siteinfo-number {
+font-family: "la-bohemienne";
+font-size: 7vh;
+color: black;
+margin: auto 1vw;
+} 
+.address-number {
+  font-family: "times";
+  font-size: 3vh;
+  color: black;
+  margin: 0;
+  padding: 0;
+  } 
+.title-container{
+  display: block;
+  justify-content: center;
+  
+}
+
+.nav-container {
+  /* border: 2px solid red; */
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-elementExp {
+
+}
+.nav-element {
+
+    font-family: "timesnewroman";
+    font-size: 3vh;
+    color: black;
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    
+
+}
+.cid-kpAbc123456 {
+ 
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url("./assets/lily-and-chris-airlie-cropped13.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Or background-size: contain; if you want to keep the full image in view */
+  width: 100vw;
+}
+.cid-kpAbc123456 .image-wrap img {
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.info-card {
+  border-color:blue;
+  justify-content: center;
+}
+}
