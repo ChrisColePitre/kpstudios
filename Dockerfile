@@ -1,12 +1,23 @@
-# Stage 0, "build-stage", based on Node.js, to build and compile the frontend
+# Stage 0, pulls node official base image as 'build-stage' to be referenced later in file
 FROM node:16 as build-stage
+#setting working dir
 WORKDIR /site
-COPY package*.json /site/
+#install deps, copies package and package-lock json files to Docker env
+COPY package.json ./
+#install all node packages
 RUN npm install
-COPY ./ /site/
+#copies everything over to docker env
+COPY . ./
 RUN npm run build
-# Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
+
+# Stage 1
+#pull official nginx base image
 FROM nginx:1.22.0
-COPY --from=build-stage /site/build/ /usr/share/nginx/html
-# Copy the default nginx.conf provided by tiangolo/node-frontend
-COPY --from=build-stage /nginx.conf /etc/nginx/conf.d/default.conf
+#Set working dir to nginx resources
+WORKDIR /usr/share/nginx/html
+#remove default nginx static resources
+RUN rm -rf ./*
+#copies static resources from build-stage
+COPY --from=build-stage /site/build/ .
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
