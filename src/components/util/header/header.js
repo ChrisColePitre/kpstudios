@@ -22,7 +22,7 @@ function Header() {
               <NavElement href="/aboutme" >
                 About Me
               </NavElement>
-              <NavElement href="/mystudio" >
+              <NavElement href="/studio" >
                 My Studio
               </NavElement>
               <NavElement href="/portfolio" >

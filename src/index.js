@@ -5,11 +5,14 @@ import App from './components/app';
 import reportWebVitals from './reportWebVitals';
 import AboutMe from './components/about/about';
 import Home from './components/homepage/home'
+import MyStudio from './components/studio/studio';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+import Portfolio from './components/portfolio/portfolio';
+import Shop from './components/shop/shop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +23,9 @@ root.render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
           <Route path="aboutme" element={<AboutMe />} />
+          <Route path="studio" element={<MyStudio />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="shop" element={<Shop />} />
         </Route>
       </Routes>
     </BrowserRouter>
