@@ -13,6 +13,8 @@ RUN npm run build
 # Stage 1
 #pull official nginx base image
 FROM nginx:1.22.0
+#copying from /site workingdir to nginx config spot
+COPY ./default.conf /etc/nginx/conf.d/default.conf
 #Set working dir to nginx resources
 WORKDIR /usr/share/nginx/html
 #remove default nginx static resources
